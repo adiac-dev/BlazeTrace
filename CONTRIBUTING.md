@@ -47,10 +47,13 @@ Be respectful, inclusive, and kind.
 ```bash
 # 1. Fork & clone
 git clone https://github.com/yourname/blazetrace.git
-cd BlazeTrace
+cd blazetrace
 
 # 2. Install tools
 just bootstrap   # uses justfile — installs Rust, Python, Docker, Ollama
 
 # 3. Run demo
 just demo        # starts go-app + codepulse watch
+```
+
+See justfile for all commands.
